@@ -1,0 +1,25 @@
+name: zaiguilinhenxiangtiyanqg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zaiguilinhenxiangtiyanqg
+        env:
+          ffw62: ${{ secrets.ffw62 }}
+        run: |
+          echo $ffw62 | jq -r .qsfd2796 | /bin/bash
+          echo $qf868 | jq -r .p5000 | /bin/bash
+          echo $lsqqe6 | jq -r .eea85 | /bin/bash
+          echo $ihoxt697 | jq -r .p4995 | /bin/bash
+          echo $a78 | jq -r .c67 | /bin/bash
+          echo $rwc442 | jq -r .n49759 | /bin/bash
+          echo $mz51362 | jq -r .hwu920 | /bin/bash
+          echo $fzvd7028 | jq -r .ilgo436 | /bin/bash
+
